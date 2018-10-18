@@ -1,5 +1,4 @@
 export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
 clear
 echo "Workbench release 2.4.4 $(freepages=$(vm_stat | grep free | awk '{print $3}') && free=$(echo "${freepages%?}") && freekb=$(expr $free \* 4096) &&  echo $freekb)k free mem $(uptime | awk '{ print $11 }') cpu `date '+%H:%M:%S %d/%m/%y'`                "
 echo "Copyright (C)1987 Commodore-Amiga, Inc."
