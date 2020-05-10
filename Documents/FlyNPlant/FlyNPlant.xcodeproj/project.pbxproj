@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE9BD74BF4828A360D6BBE1 /* Pods_FlyNPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD473B0DC8C361CBE609504 /* Pods_FlyNPlant.framework */; };
+		770CBC27241E1FE5004FEBD5 /* airportstest.json in Resources */ = {isa = PBXBuildFile; fileRef = 770CBC26241E1FE5004FEBD5 /* airportstest.json */; };
+		775ADDDF241E077900853278 /* airport-codes_json.json in Resources */ = {isa = PBXBuildFile; fileRef = 775ADDDE241E077900853278 /* airport-codes_json.json */; };
+		77988A1A2413D8F000F2AD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77988A192413D8F000F2AD7B /* AppDelegate.swift */; };
+		77988A1C2413D8F000F2AD7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77988A1B2413D8F000F2AD7B /* SceneDelegate.swift */; };
+		77988A1E2413D8F000F2AD7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77988A1D2413D8F000F2AD7B /* ViewController.swift */; };
+		77988A212413D8F000F2AD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77988A1F2413D8F000F2AD7B /* Main.storyboard */; };
+		77988A242413D8F000F2AD7B /* FlyNPlant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77988A222413D8F000F2AD7B /* FlyNPlant.xcdatamodeld */; };
+		77988A262413D8F100F2AD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77988A252413D8F100F2AD7B /* Assets.xcassets */; };
+		77988A292413D8F100F2AD7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77988A272413D8F100F2AD7B /* LaunchScreen.storyboard */; };
+		77988A362413DBA800F2AD7B /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77988A352413DBA800F2AD7B /* Tree.swift */; };
+		77988A382413DC0900F2AD7B /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77988A372413DC0900F2AD7B /* Flyer.swift */; };
+		77BF8A97241E0B0F000F4183 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF8A96241E0B0F000F4183 /* Airport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DD473B0DC8C361CBE609504 /* Pods_FlyNPlant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlyNPlant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770CBC26241E1FE5004FEBD5 /* airportstest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airportstest.json; sourceTree = "<group>"; };
+		775ADDDE241E077900853278 /* airport-codes_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "airport-codes_json.json"; sourceTree = "<group>"; };
+		77988A162413D8F000F2AD7B /* FlyNPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyNPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77988A192413D8F000F2AD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77988A1B2413D8F000F2AD7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77988A1D2413D8F000F2AD7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77988A202413D8F000F2AD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77988A232413D8F000F2AD7B /* FlyNPlant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlyNPlant.xcdatamodel; sourceTree = "<group>"; };
+		77988A252413D8F100F2AD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77988A282413D8F100F2AD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77988A2A2413D8F100F2AD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77988A342413DAEE00F2AD7B /* FlyNPlant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyNPlant.entitlements; sourceTree = "<group>"; };
+		77988A352413DBA800F2AD7B /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		77988A372413DC0900F2AD7B /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
+		77BF8A96241E0B0F000F4183 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		C969E827E81F34D0C1B497D9 /* Pods-FlyNPlant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyNPlant.release.xcconfig"; path = "Target Support Files/Pods-FlyNPlant/Pods-FlyNPlant.release.xcconfig"; sourceTree = "<group>"; };
+		FC02672C267F9055AB6F65B9 /* Pods-FlyNPlant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlyNPlant.debug.xcconfig"; path = "Target Support Files/Pods-FlyNPlant/Pods-FlyNPlant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77988A132413D8F000F2AD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE9BD74BF4828A360D6BBE1 /* Pods_FlyNPlant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D0F1572AC32308071B38AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC02672C267F9055AB6F65B9 /* Pods-FlyNPlant.debug.xcconfig */,
+				C969E827E81F34D0C1B497D9 /* Pods-FlyNPlant.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77988A0D2413D8F000F2AD7B = {
+			isa = PBXGroup;
+			children = (
+				77988A182413D8F000F2AD7B /* FlyNPlant */,
+				77988A172413D8F000F2AD7B /* Products */,
+				68D0F1572AC32308071B38AE /* Pods */,
+				D38F4C673E38A9DFB2F59D06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77988A172413D8F000F2AD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77988A162413D8F000F2AD7B /* FlyNPlant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77988A182413D8F000F2AD7B /* FlyNPlant */ = {
+			isa = PBXGroup;
+			children = (
+				77988A342413DAEE00F2AD7B /* FlyNPlant.entitlements */,
+				77988A332413DAA200F2AD7B /* Supporting Files */,
+				77988A322413DA8B00F2AD7B /* Controller */,
+				77988A312413DA8300F2AD7B /* View */,
+				77988A302413DA7B00F2AD7B /* Model */,
+				77988A192413D8F000F2AD7B /* AppDelegate.swift */,
+				77988A1B2413D8F000F2AD7B /* SceneDelegate.swift */,
+				77988A252413D8F100F2AD7B /* Assets.xcassets */,
+				775ADDDE241E077900853278 /* airport-codes_json.json */,
+				770CBC26241E1FE5004FEBD5 /* airportstest.json */,
+				77988A2A2413D8F100F2AD7B /* Info.plist */,
+				77988A222413D8F000F2AD7B /* FlyNPlant.xcdatamodeld */,
+			);
+			path = FlyNPlant;
+			sourceTree = "<group>";
+		};
+		77988A302413DA7B00F2AD7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77988A352413DBA800F2AD7B /* Tree.swift */,
+				77988A372413DC0900F2AD7B /* Flyer.swift */,
+				77BF8A96241E0B0F000F4183 /* Airport.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77988A312413DA8300F2AD7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77988A1F2413D8F000F2AD7B /* Main.storyboard */,
+				77988A272413D8F100F2AD7B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77988A322413DA8B00F2AD7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77988A1D2413D8F000F2AD7B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77988A332413DAA200F2AD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D38F4C673E38A9DFB2F59D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD473B0DC8C361CBE609504 /* Pods_FlyNPlant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77988A152413D8F000F2AD7B /* FlyNPlant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77988A2D2413D8F100F2AD7B /* Build configuration list for PBXNativeTarget "FlyNPlant" */;
+			buildPhases = (
+				A07D1A8F5E40AED8FB1AF11E /* [CP] Check Pods Manifest.lock */,
+				77988A122413D8F000F2AD7B /* Sources */,
+				77988A132413D8F000F2AD7B /* Frameworks */,
+				77988A142413D8F000F2AD7B /* Resources */,
+				855F48DD93F20B69126919B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyNPlant;
+			productName = FlyNPlant;
+			productReference = 77988A162413D8F000F2AD7B /* FlyNPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77988A0E2413D8F000F2AD7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 7RedBits;
+				TargetAttributes = {
+					77988A152413D8F000F2AD7B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 77988A112413D8F000F2AD7B /* Build configuration list for PBXProject "FlyNPlant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77988A0D2413D8F000F2AD7B;
+			productRefGroup = 77988A172413D8F000F2AD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77988A152413D8F000F2AD7B /* FlyNPlant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77988A142413D8F000F2AD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775ADDDF241E077900853278 /* airport-codes_json.json in Resources */,
+				77988A292413D8F100F2AD7B /* LaunchScreen.storyboard in Resources */,
+				77988A262413D8F100F2AD7B /* Assets.xcassets in Resources */,
+				77988A212413D8F000F2AD7B /* Main.storyboard in Resources */,
+				770CBC27241E1FE5004FEBD5 /* airportstest.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		855F48DD93F20B69126919B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyNPlant/Pods-FlyNPlant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlyNPlant/Pods-FlyNPlant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlyNPlant/Pods-FlyNPlant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07D1A8F5E40AED8FB1AF11E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlyNPlant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77988A122413D8F000F2AD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77988A362413DBA800F2AD7B /* Tree.swift in Sources */,
+				77988A1E2413D8F000F2AD7B /* ViewController.swift in Sources */,
+				77988A1A2413D8F000F2AD7B /* AppDelegate.swift in Sources */,
+				77BF8A97241E0B0F000F4183 /* Airport.swift in Sources */,
+				77988A242413D8F000F2AD7B /* FlyNPlant.xcdatamodeld in Sources */,
+				77988A382413DC0900F2AD7B /* Flyer.swift in Sources */,
+				77988A1C2413D8F000F2AD7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77988A1F2413D8F000F2AD7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77988A202413D8F000F2AD7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77988A272413D8F100F2AD7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77988A282413D8F100F2AD7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77988A2B2413D8F100F2AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77988A2C2413D8F100F2AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77988A2E2413D8F100F2AD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC02672C267F9055AB6F65B9 /* Pods-FlyNPlant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlyNPlant/FlyNPlant.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = A6BLA5KTZ8;
+				INFOPLIST_FILE = FlyNPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.7RedBits.FlyNPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77988A2F2413D8F100F2AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C969E827E81F34D0C1B497D9 /* Pods-FlyNPlant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlyNPlant/FlyNPlant.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = A6BLA5KTZ8;
+				INFOPLIST_FILE = FlyNPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.7RedBits.FlyNPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77988A112413D8F000F2AD7B /* Build configuration list for PBXProject "FlyNPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77988A2B2413D8F100F2AD7B /* Debug */,
+				77988A2C2413D8F100F2AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77988A2D2413D8F100F2AD7B /* Build configuration list for PBXNativeTarget "FlyNPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77988A2E2413D8F100F2AD7B /* Debug */,
+				77988A2F2413D8F100F2AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77988A222413D8F000F2AD7B /* FlyNPlant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77988A232413D8F000F2AD7B /* FlyNPlant.xcdatamodel */,
+			);
+			currentVersion = 77988A232413D8F000F2AD7B /* FlyNPlant.xcdatamodel */;
+			path = FlyNPlant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77988A0E2413D8F000F2AD7B /* Project object */;
+}
